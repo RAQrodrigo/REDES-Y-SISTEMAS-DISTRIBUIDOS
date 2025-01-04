@@ -2,6 +2,7 @@
 
 Debido a que los enunciados son demasiado largos aquí solo dejo los objetivos de cada laboratorio, dentro de los mismos pueden encontrar el enunciado correspondiente.
 
+--- 
 ## Laboratorio 0: Comunicación Cliente/Servidor con Sockets
 
 ### Objetivos
