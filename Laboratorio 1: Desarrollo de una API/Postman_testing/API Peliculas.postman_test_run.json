@@ -1,0 +1,363 @@
+{
+	"id": "3721b0f6-8476-4641-b635-c56b6b9b05bb",
+	"name": "API Peliculas",
+	"timestamp": "2024-03-28T22:37:11.706Z",
+	"collection_id": "33882216-0289f22c-e17c-49a0-aa46-2e762493867d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 11,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-03-28T22:37:09.942Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1daf4019-ccce-405e-ad3b-b7682f13ebe5",
+			"name": "Obtener pelíuclas",
+			"url": "http://127.0.0.1:5000/peliculas",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8a6a6bd3-deaa-47dc-9cde-d3311c175345",
+			"name": "Obtener película especifica",
+			"url": "http://127.0.0.1:5000/peliculas/2",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f4546acf-2a0b-4a5a-8a0a-9a38db8a9c9b",
+			"name": "Obtener película aleatoria",
+			"url": "http://127.0.0.1:5000/peliculas/random",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d5db0e3c-b6a3-4f97-bd44-de0624b0c1f7",
+			"name": "Película aleatoria por genero",
+			"url": "http://127.0.0.1:5000/peliculas/random/Drama",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cddba2f6-7c75-49f3-9cba-efabc6d337de",
+			"name": "Película para el proximo feriado",
+			"url": "http://127.0.0.1:5000/peliculas/random/Drama/next_holiday",
+			"time": 862,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				862
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4a00c177-42b5-43af-bb5e-a3420af8510b",
+			"name": "Actualizar pelicula",
+			"url": "http://127.0.0.1:5000/peliculas/5",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8f4280c5-536e-4100-be1d-623987a91d25",
+			"name": "Eliminar película",
+			"url": "http://127.0.0.1:5000/peliculas/3",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5b46a305-0240-4200-82e4-7ff29cb6de22",
+			"name": "Agrega película",
+			"url": "http://127.0.0.1:5000/peliculas",
+			"time": 4,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "7d845b37-9b28-4b64-8570-d458549f2132",
+			"name": "Películas por genero",
+			"url": "http://127.0.0.1:5000/peliculas/Drama",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "68f68a95-0788-49c9-aa9c-b3070b1187cc",
+			"name": "Obtener película",
+			"url": "http://127.0.0.1:5000/peliculas/7",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4456721e-5fed-4f05-a5b3-a38d89853fe4",
+			"name": "String en titulo",
+			"url": "http://127.0.0.1:5000/peliculas/titulo/Star",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 914,
+	"collection": {
+		"requests": [
+			{
+				"id": "1daf4019-ccce-405e-ad3b-b7682f13ebe5",
+				"method": "GET"
+			},
+			{
+				"id": "8a6a6bd3-deaa-47dc-9cde-d3311c175345",
+				"method": "GET"
+			},
+			{
+				"id": "f4546acf-2a0b-4a5a-8a0a-9a38db8a9c9b",
+				"method": "GET"
+			},
+			{
+				"id": "d5db0e3c-b6a3-4f97-bd44-de0624b0c1f7",
+				"method": "GET"
+			},
+			{
+				"id": "cddba2f6-7c75-49f3-9cba-efabc6d337de",
+				"method": "GET"
+			},
+			{
+				"id": "4a00c177-42b5-43af-bb5e-a3420af8510b",
+				"method": "PUT"
+			},
+			{
+				"id": "8f4280c5-536e-4100-be1d-623987a91d25",
+				"method": "DELETE"
+			},
+			{
+				"id": "5b46a305-0240-4200-82e4-7ff29cb6de22",
+				"method": "POST"
+			},
+			{
+				"id": "7d845b37-9b28-4b64-8570-d458549f2132",
+				"method": "GET"
+			},
+			{
+				"id": "68f68a95-0788-49c9-aa9c-b3070b1187cc",
+				"method": "GET"
+			},
+			{
+				"id": "4456721e-5fed-4f05-a5b3-a38d89853fe4",
+				"method": "GET"
+			}
+		]
+	}
+}
